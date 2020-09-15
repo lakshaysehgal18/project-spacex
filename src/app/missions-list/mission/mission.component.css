@@ -1,0 +1,15 @@
+.card{
+    
+    background-color: white;
+    padding:10px;
+    width:100%;
+    margin-bottom:20px;
+    border-radius: 5px;
+    
+}
+.cardHeader{
+    color:blue;
+}
+.cardBody{
+    color:rgb(16, 132, 173);
+}

@@ -1,0 +1,22 @@
+<!-- land_success parameter was not present in api response so hardcoded -->
+  <div class="card">
+    <div style="background-color:rgb(214, 210, 210);text-align:center;">
+      
+      <img src="{{singleMission.mission_patch_small}}" alt="" class="img-responsive"  style="max-width:150px;">
+    </div>
+ 
+     <span class="cardHeader"> <p ><b><span class="cardBody">{{singleMission.mission_name}}#{{singleMission.flight_number}}</span></b></p></span>
+
+ <p><b>Mission Ids:</b></p><ul>
+   <li *ngFor="let id of singleMission.mission_id"><span class="cardBody">{{id}}</span></li>
+ </ul>
+
+ 
+  <p><b>Launch Year:</b> <span class="cardBody">{{singleMission.launch_year}}</span></p>
+  <p><b>Successful Launch:</b> <span class="cardBody">{{singleMission.launch_success}}</span></p>
+  <p><b>Successful Landing:</b> <span class="cardBody">HardCoded</span></p>
+
+</div>
+
+  
+

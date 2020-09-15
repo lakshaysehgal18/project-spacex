@@ -1,0 +1,31 @@
+.mybadge{
+
+margin:4px;
+color:black;
+padding:4px;
+border-radius:5px;
+
+
+
+}
+.alignCenter{
+    
+    text-align: center;
+}
+
+.mybadge:hover{
+    background-color:rgb(35, 126, 35);
+}
+span{
+    display: inline-block;
+    padding: 0px 10px;
+    text-align:center;
+    border-bottom: 1px solid #888;
+}
+
+
+
+
+.aligncenter{
+    text-align:center;
+}
