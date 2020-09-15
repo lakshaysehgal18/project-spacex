@@ -1,3 +1,18 @@
+# BestPractices
+
+Used Angular framework and all its necessary terminologies required like Creating Components, PropertyBinding,Event Binding,Dependency Injection and Services,Http Response/Request,Directives,Models,CrossComponent Communication,String Interpolation etc.
+
+Filtering data using  HttpParams and changing API query parameters dynamically based on filter buttons clicked and same can be reused again and again(click and unclick) without refereshing the page and filtering the data based on currrent active filters.
+
+Responsive UI in bootstrap 4 grid system handy with  mobiles,tablets and desktop.
+
+Used Bootstrap Display Utilities to show and hide some tags and data  based on breakpoints.
+
+All components styled and designed in CSS no bootstrap classes used for styling.
+
+Clean Code with all the necessary imports and developed UI according to the requirements.
+
+
 # SpacexLsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
@@ -10,18 +25,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
