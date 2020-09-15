@@ -2,7 +2,7 @@
 
 Used Angular framework and all its necessary terminologies required like Creating Components, PropertyBinding,Event Binding,Dependency Injection and Services,Http Response/Request,Directives,Models,CrossComponent Communication,String Interpolation etc.
 
-Filtering data using  HttpParams and changing API query parameters dynamically based on filter buttons clicked and same can be reused again and again(click and unclick) without refereshing the page and filtering the data based on currrent active filters.
+Filtering data using  HttpParams and changing API query parameters dynamically based on filter buttons clicked and same can be reused again and again(click and unclick) without refereshing the page and filter the data based on currrent active filters.
 
 Responsive UI in bootstrap 4 grid system handy with  mobiles,tablets and desktop.
 

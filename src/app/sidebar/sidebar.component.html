@@ -16,7 +16,7 @@
 
       <div class="row ">
       <div class="col-6 aligncenter" *ngFor="let year of launchYears">
-       <div class="mybadge" [ngStyle] ="{'background-color' : selectedYear==year ? 'rgb(35, 126, 35)' : 'rgb(90, 200, 90)'}" (click)="onChangeYear(year)">{{year}}</div>
+       <div class="mybadge" [ngStyle] ="{'background-color' : selectedYear==year ? 'rgb(35, 126, 35)' : 'rgb(60, 206, 67)'}" (click)="onChangeYear(year)">{{year}}</div>
        </div>
 
 
@@ -33,7 +33,7 @@
 
       <div class="row ">
       <div class="col-6 aligncenter" *ngFor="let index of sucLaunch">
-      <div class="mybadge" (click)="onChangeLaunching(index)" [ngStyle] ="{'background-color' : LaunchingStatus==index ? 'rgb(35, 126, 35)' : 'rgb(90, 200, 90)'}">{{index}}</div>
+      <div class="mybadge" (click)="onChangeLaunching(index)" [ngStyle] ="{'background-color' : LaunchingStatus==index ? 'rgb(35, 126, 35)' : 'rgb(60, 206, 67)'}">{{index}}</div>
       </div>
 
 
@@ -49,7 +49,7 @@
 
       <div class="row ">
       <div class="col-6 aligncenter" *ngFor="let index of sucLaunch">
-      <div class="mybadge" (click)="onChangeLanding(index)" [ngStyle] ="{'background-color' : LandingStatus==index ? 'rgb(35, 126, 35)' : 'rgb(90, 200, 90)'}">{{index}}</div>
+      <div class="mybadge" (click)="onChangeLanding(index)" [ngStyle] ="{'background-color' : LandingStatus==index ? 'rgb(35, 126, 35)' : 'rgb(60, 206, 67)'}">{{index}}</div>
       </div>
 
 
