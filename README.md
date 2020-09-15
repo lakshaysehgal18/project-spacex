@@ -26,6 +26,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 
+## LighthouseScore
 
+
+(https://user-images.githubusercontent.com/71301996/93214081-57426680-f782-11ea-84b8-1cd914720fa7.PNG)
 
 
