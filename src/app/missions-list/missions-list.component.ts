@@ -21,7 +21,7 @@ export class MissionsListComponent implements OnInit {
 
     this.valuesParams=this.missionService.valuesParams;
 
-     
+     //the event listener datecting change in filter parameters
      this.missionService.newParamAdded.subscribe((value)=>{
       
      this.valuesParams=value;
@@ -31,7 +31,7 @@ export class MissionsListComponent implements OnInit {
    }); 
      
 
-     
+     //Will be ececutes during first time page loads
       this.http.get("https://api.spacexdata.com/v3/launches?limit=100").subscribe(
       (res)=>{
   
@@ -53,8 +53,10 @@ export class MissionsListComponent implements OnInit {
 
   }
 
+
+  //Will be executed when any change in filter detected and creates a new Httpparams everytime based on current active filters
   updateData(valuesParams:{launch_year:string,landing_success:string,launching_success:string}){
-    //console.log(valuesParams);
+    
 
     let qpar=new HttpParams();
     if(valuesParams.launching_success!=null){

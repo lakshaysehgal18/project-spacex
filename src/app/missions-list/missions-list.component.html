@@ -1,14 +1,19 @@
+
+
 <!-- Bootstrap Display utilities are used for proper UI on mobile and desktop for this component  -->
 
+<!-- Below one will be displayed when screen size is greater than md only -->
 <div class="d-md-none"><br></div>
 <div class="row">
     
   <div class="col-md-6 col-lg-3 d-none d-md-block"  
        *ngFor="let mission of ms" >
-
+ 
     <app-mission [singleMission]="mission"></app-mission>
   </div>
   
+
+  <!-- Below one will be displayed when screen size is less than md only -->
   <div class="col-md-6 col-lg-3 d-md-none"  
        style="padding:0px" 
        *ngFor="let mission of ms" >

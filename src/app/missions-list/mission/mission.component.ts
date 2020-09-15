@@ -9,10 +9,15 @@ import { Mission } from 'src/app/model/mission.model';
 export class MissionComponent implements OnInit {
 
   @Input()
-  singleMission:Mission;
+  singleMission:Mission; //recieving single misssion program through propertyBinding
+
   constructor() { }
 
   ngOnInit() {
+    if(this.singleMission.mission_id.length==0)
+    this.singleMission.mission_id.push(434989);//HardCoded some data to show in UI for no data in  Api call
+
+    
   }
 
 }

@@ -10,6 +10,8 @@ valuesParams:{launch_year:string,landing_success:string,launching_success:string
 
 newParamAdded=new EventEmitter<{launch_year:string,landing_success:string,launching_success:string}>();
 
+//emits event when any parameters changed and updating the valuesParams simultaneously
+
 onLaunchYearAdded(year:string){
     
         this.valuesParams.launch_year=year;
@@ -42,7 +44,7 @@ onLaunchingAdded(status:string){
         this.valuesParams.launching_success=null;
     }
 
-//console.log(this.valuesParams);
+
 this.newParamAdded.emit(this.valuesParams);
 }
 
