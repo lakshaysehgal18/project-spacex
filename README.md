@@ -12,9 +12,9 @@ All components styled and designed in CSS no bootstrap classes used for styling.
 
 Clean Code with all the necessary imports and developed UI according to the requirements.
 
-#Important Note
+# Important Note
 
-Please download bootstrap 4 into project structure or add it dynamically before using the source code to see the responsive behaviour of this app.
+Please download bootstrap 4 into project structure before using the source code or add it dynamically to see the responsive behaviour of this app.
 
 To add bootstrap dynamically in project :-
 
