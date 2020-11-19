@@ -1,7 +1,11 @@
 
 #Hello New Thing Added first time now through remote repo from mychanges branch
 
+<<<<<<< HEAD
 #New Changes in remotebranch
+=======
+#New Things in mychanges
+>>>>>>> mychanges
 
 # BestPractices
 
