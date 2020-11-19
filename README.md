@@ -1,4 +1,4 @@
-#Hello New Thing Added first time now through remote repo
+#Hello New Thing Added first time now through remote repo but not in working directory
 
 # BestPractices
 
