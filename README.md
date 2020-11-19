@@ -1,4 +1,5 @@
-#Hello New Thing Added first time now through remote repo but not in working directory
+
+#Hello New Thing Added first time now through remote repo from mychanges branch
 
 # BestPractices
 
