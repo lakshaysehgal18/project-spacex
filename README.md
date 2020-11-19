@@ -1,4 +1,4 @@
-#Hello New Thing Added first time
+#Hello New Thing Added first time now through remote repo
 
 # BestPractices
 
